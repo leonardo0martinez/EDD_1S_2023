@@ -84,6 +84,7 @@ func (list *SimpleList) Delete(value int) (result bool) {
 		// 1 -> |2| -> 3   		==>  1 -> 3
 		// 1 -> |2| -> Null   	==>  1 -> Null (toma el valor del apuntando a nulo)
 		temp.next = temp.next.next
+		result = true
 	}
 	return result
 }
