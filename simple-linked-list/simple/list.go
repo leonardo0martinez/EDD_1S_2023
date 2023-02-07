@@ -75,16 +75,22 @@ func (list *SimpleList) Delete(value int) (result bool) {
 		// 1 -> |2| -> Null		----- Que el siguiente nodo sea nulo
 		for temp != nil {
 			//Encontrar el nodo anterior al que se elimina
-			if temp.next.value == value {
-				break
+			if temp.next != nil {
+				if temp.next.value == value {
+					break
+				}
 			}
 			temp = temp.next
 		}
-		//Se asigna el apuntador al siguiente del que se elimina
-		// 1 -> |2| -> 3   		==>  1 -> 3
-		// 1 -> |2| -> Null   	==>  1 -> Null (toma el valor del apuntando a nulo)
-		temp.next = temp.next.next
-		result = true
+		if temp == nil {
+			return false
+		} else {
+			//Se asigna el apuntador al siguiente del que se elimina
+			// 1 -> |2| -> 3   		==>  1 -> 3
+			// 1 -> |2| -> Null   	==>  1 -> Null (toma el valor del apuntando a nulo)
+			temp.next = temp.next.next
+			result = true
+		}
 	}
 	return result
 }

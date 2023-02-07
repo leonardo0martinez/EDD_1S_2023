@@ -16,14 +16,13 @@ func main() {
 		list.Insert(i)
 	}
 	list.Print()
-	fmt.Println("Eliminando el primero:")
-	list.Delete(1)
+	fmt.Printf("Eliminando el primero: %t\n", list.Delete(1))
 	list.Print()
-	fmt.Println("Eliminando el último:")
-	list.Delete(10)
+	fmt.Printf("Eliminando el último: %t\n", list.Delete(10))
 	list.Print()
-	fmt.Println("Eliminando entre nodos:")
-	list.Delete(5)
+	fmt.Printf("Eliminando entre nodos: %t\n", list.Delete(5))
+	list.Print()
+	fmt.Printf("Eliminando uno que no exite: %t\n", list.Delete(1000))
 	list.Print()
 
 }
