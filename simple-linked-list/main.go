@@ -16,13 +16,26 @@ func main() {
 		list.Insert(i)
 	}
 	list.Print()
-	fmt.Printf("Eliminando el primero: %t\n", list.Delete(1))
+
+	// Segundo Método
+	fmt.Println("Actualizando valor desde la clase Lista: ")
+	list.Update(10, 20)
 	list.Print()
-	fmt.Printf("Eliminando el último: %t\n", list.Delete(10))
+
+	fmt.Println("Actualizando valor desde la clase Nodo: ")
+	temp := list.GetNode(4)
+	temp.SetValue(50)
 	list.Print()
-	fmt.Printf("Eliminando entre nodos: %t\n", list.Delete(5))
-	list.Print()
-	fmt.Printf("Eliminando uno que no exite: %t\n", list.Delete(1000))
-	list.Print()
+	fmt.Println("Imprimiendo el valor del Nodo: ")
+	fmt.Println(temp.GetValue())
+	// fmt.Print()
+	// fmt.Printf("Eliminando el primero: %t\n", list.Delete(1))
+	// list.Print()
+	// fmt.Printf("Eliminando el último: %t\n", list.Delete(10))
+	// list.Print()
+	// fmt.Printf("Eliminando entre nodos: %t\n", list.Delete(5))
+	// list.Print()
+	// fmt.Printf("Eliminando uno que no exite: %t\n", list.Delete(1000))
+	// list.Print()
 
 }

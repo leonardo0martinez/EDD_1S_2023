@@ -28,7 +28,7 @@ func (list *SimpleList) Insert(value int) {
 }
 
 // Método para imprimir la lista
-func (list *SimpleList) Print() {
+func (list SimpleList) Print() {
 	temp := list.head
 	for temp.next != nil {
 		fmt.Printf("%d, ", temp.value)
@@ -38,7 +38,7 @@ func (list *SimpleList) Print() {
 }
 
 // Método para buscar un valor en la lista
-func (list *SimpleList) Find(value int) (result bool, index int) {
+func (list *SimpleList) FindIndex(value int) (result bool, index int) {
 	temp := list.head
 	index = 0
 	result = false
@@ -53,7 +53,6 @@ func (list *SimpleList) Find(value int) (result bool, index int) {
 	if !result {
 		index = -1
 	}
-
 	return result, index
 }
 
@@ -93,4 +92,26 @@ func (list *SimpleList) Delete(value int) (result bool) {
 		}
 	}
 	return result
+}
+
+func (list *SimpleList) Update(value int, newValue int) {
+	temp := list.head
+	for temp != nil {
+		if temp.value == value {
+			break
+		}
+		temp = temp.next
+	}
+	temp.value = newValue
+}
+
+func (list *SimpleList) GetNode(value int) *Node {
+	temp := list.head
+	for temp != nil {
+		if temp.value == value {
+			break
+		}
+		temp = temp.next
+	}
+	return temp
 }
