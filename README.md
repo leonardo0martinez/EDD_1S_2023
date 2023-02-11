@@ -5,8 +5,10 @@ Leonardo Roney Martínez Maldonado
 
 ## Estructuras de Datos:
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
-- Lista Enlazada Doble
-- Lista Enlazada Circular
+- [Lista Enlazada Doble](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/doubly-linked-list)
+- [Lista Enlazada Circular](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/circular-linked-list)
+- Pila
+- Cola
 - Algoritmos de Ordenamiento
 - Matriz Ortogonal
 - Matriz Dispersa
