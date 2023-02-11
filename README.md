@@ -23,7 +23,7 @@ Leonardo Roney Martínez Maldonado
 |----|-------------|---------------|
 | 1  | 28-Ene-2023 |[Enlace](https://youtu.be/xqB2RRrKg1U)|
 | 2  | 04-Feb-2023  |[Enlace](https://youtu.be/-2_y8n29LG0)|
-| 3  | 11-Feb-2023 |               |
+| 3  | 11-Feb-2023 |[Enlace](https://youtu.be/Ciuae6Mbp4Y)|
 | 4  | 18-Feb-2023 |               |
 | 5  | 25-Feb-2023 |               |
 | 6  | 04-Mar-2023  |               |
