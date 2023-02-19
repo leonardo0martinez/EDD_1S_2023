@@ -7,8 +7,8 @@ Leonardo Roney Martínez Maldonado
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
 - [Lista Enlazada Doble](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/doubly-linked-list)
 - [Lista Enlazada Circular](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/circular-linked-list)
-- Pila
-- Cola
+- [Pila](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/proyecto/stack)
+- [Cola](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/proyecto/queue)
 - Algoritmos de Ordenamiento
 - Matriz Ortogonal
 - Matriz Dispersa
@@ -24,7 +24,7 @@ Leonardo Roney Martínez Maldonado
 | 1  | 28-Ene-2023 |[Enlace](https://youtu.be/xqB2RRrKg1U)|
 | 2  | 04-Feb-2023  |[Enlace](https://youtu.be/-2_y8n29LG0)|
 | 3  | 11-Feb-2023 |[Enlace](https://youtu.be/Ciuae6Mbp4Y)|
-| 4  | 18-Feb-2023 |               |
+| 4  | 18-Feb-2023 |[Enlace](https://drive.google.com/file/d/15MDqR1OYPyo-rtBeV82LXgVlTqi4qaMq/view?usp=sharing)|
 | 5  | 25-Feb-2023 |               |
 | 6  | 04-Mar-2023  |               |
 | 7  | 11-Mar-2023 |               |
