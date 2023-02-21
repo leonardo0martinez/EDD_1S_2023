@@ -28,7 +28,7 @@ func main() {
 
 	// Descripción del array
 	// [[carnet, nombre, contraseña], [201780044,Leonardo Martinez,leo1234], ....]
-	for index, row := range records {
-		fmt.Printf("%d: %s %s\n", index, row[0], row[1])
+	for index, row := range records { // EJEMPLO DE FOR EACH EN GOLANG
+		fmt.Printf("%d: %s\t%s\n", index, row[0], row[1])
 	}
 }
