@@ -3,6 +3,10 @@
 
 Leonardo Roney Martínez Maldonado
 
+## Cositas Extras
+- [Generar .png con Graphviz](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/graphviz)
+- [Leer archivo .csv en Go](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/read-csv)
+
 ## Estructuras de Datos:
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
 - [Lista Enlazada Doble](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/doubly-linked-list)
