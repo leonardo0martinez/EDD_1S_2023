@@ -3,7 +3,7 @@
 
 Leonardo Roney Martínez Maldonado
 
-## Cositas Extras
+## Extras
 - [Generar .png con Graphviz](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/graphviz)
 - [Leer archivo .csv en Go](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/read-csv)
 
@@ -11,10 +11,9 @@ Leonardo Roney Martínez Maldonado
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
 - [Lista Enlazada Doble](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/doubly-linked-list)
 - [Lista Enlazada Circular](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/circular-linked-list)
-- [Pila](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/proyecto/stack)
-- [Cola](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/proyecto/queue)
-- Algoritmos de Ordenamiento
-- Matriz Ortogonal
+- [Pila](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/stack)
+- [Cola](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/queue)
+- [Algoritmos de Ordenamiento](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/ordering)
 - Matriz Dispersa
 - Árbol Binario
 - Árbol AVL
@@ -29,7 +28,7 @@ Leonardo Roney Martínez Maldonado
 | 2  | 04-Feb-2023  |[Enlace](https://youtu.be/-2_y8n29LG0)|
 | 3  | 11-Feb-2023 |[Enlace](https://youtu.be/Ciuae6Mbp4Y)|
 | 4  | 18-Feb-2023 |[Enlace](https://drive.google.com/file/d/15MDqR1OYPyo-rtBeV82LXgVlTqi4qaMq/view?usp=sharing)|
-| 5  | 25-Feb-2023 |               |
+| 5  | 25-Feb-2023 |[Enlace](https://drive.google.com/file/d/1TYfItNUYLaUr4weSekEDfFEtxvOop2L3/view)|
 | 6  | 04-Mar-2023  |               |
 | 7  | 11-Mar-2023 |               |
 | 8  | 18-Mar-2023 |               |
@@ -43,5 +42,4 @@ Leonardo Roney Martínez Maldonado
 
 ## Lenguajes de Programación
 - Golang
-- Python
 - Javascrip
