@@ -13,7 +13,7 @@ Leonardo Roney Martínez Maldonado
 - [Lista Enlazada Circular](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/circular-linked-list)
 - [Pila](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/stack)
 - [Cola](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/queue)
-- [Algoritmos de Ordenamiento](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/ordering)
+- [Algoritmos de Ordenamiento](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/orderings)
 - Matriz Dispersa
 - Árbol Binario
 - Árbol AVL
