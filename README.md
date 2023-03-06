@@ -14,7 +14,7 @@ Leonardo Roney Martínez Maldonado
 - [Pila](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/stack)
 - [Cola](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/queue)
 - [Algoritmos de Ordenamiento](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/orderings)
-- Matriz Dispersa
+- [Matriz Dispersa](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/sparse-matrix)
 - Árbol Binario
 - Árbol AVL
 - Árbol B
@@ -29,7 +29,7 @@ Leonardo Roney Martínez Maldonado
 | 3  | 11-Feb-2023 |[Enlace](https://youtu.be/Ciuae6Mbp4Y)|
 | 4  | 18-Feb-2023 |[Enlace](https://drive.google.com/file/d/15MDqR1OYPyo-rtBeV82LXgVlTqi4qaMq/view?usp=sharing)|
 | 5  | 25-Feb-2023 |[Enlace](https://drive.google.com/file/d/1TYfItNUYLaUr4weSekEDfFEtxvOop2L3/view)|
-| 6  | 04-Mar-2023  |               |
+| 6  | 04-Mar-2023  |[Enlace](https://drive.google.com/file/d/1pFvzCzn-vNGDEgVSOoq3QA4wRMbJajiH/view?usp=sharing)|
 | 7  | 11-Mar-2023 |               |
 | 8  | 18-Mar-2023 |               |
 | 9  | 25-Mar-2023 |               |
