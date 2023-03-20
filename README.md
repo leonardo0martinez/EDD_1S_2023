@@ -6,6 +6,7 @@ Leonardo Roney Martínez Maldonado
 ## Extras
 - [Generar .png con Graphviz](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/graphviz)
 - [Leer archivo .csv en Go](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/read-csv)
+- [Carga Masiva de JSON](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/avl-tree)
 
 ## Estructuras de Datos:
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
@@ -15,8 +16,8 @@ Leonardo Roney Martínez Maldonado
 - [Cola](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/stack-queue/queue)
 - [Algoritmos de Ordenamiento](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/orderings)
 - [Matriz Dispersa](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/sparse-matrix)
-- Árbol Binario
-- Árbol AVL
+- [Árbol Binario](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/binary-search-tree/js)
+- [Árbol AVL](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/avl-tree)
 - Árbol B
 - Tablas Hash
 
