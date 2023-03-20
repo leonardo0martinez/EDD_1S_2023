@@ -202,7 +202,7 @@ class SparseMatrix{
 		code +="M0[ label = \"Inicio\" width = 1.5 shape = \"square\" style = \"filled\" fillcolor =\"slateblue\" group=\"0\"]; \n";
         code += this.#headersGraph()
         code += this.#nodesGraph()
-        console.log(code)
+        return(code)
     }
     #headersGraph(){
         let conn = "M0 ->";
@@ -280,5 +280,4 @@ class SparseMatrix{
     }
 }
 
-
-module.exports = SparseMatrix;
+// module.exports = SparseMatrix;

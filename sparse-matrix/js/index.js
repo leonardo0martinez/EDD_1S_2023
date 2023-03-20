@@ -1,26 +1,43 @@
 
-const Matriz = require("./sparase-matrix");
+let matrix = new SparseMatrix();
 
-let m = new Matriz();
-m.insert(10,2,`Pos(10,2)`);
-m.insert(3,1,`Pos(3,1)`);
-m.insert(4,1,`Pos(3,1)`);
-m.insert(3,2,`Pos(3,1)`);
-m.insert(5,2,`Pos(5,2)`);
-m.insert(5,6,`Pos(5,6)`);
-m.insert(6,8,`Pos(6,8)`);
-m.insert(8,3,`Pos(8,3)`);
-m.insert(7,9,`Pos(7,9)`);
-m.insert(8,4,`Pos(8,4)`);
-m.insert(7,3,`Pos(7,3)`);
-m.insert(3,6,`Pos(3,6)`);
-m.insert(6,4,`Pos(6,4)`);
-console.log("CABECERAS EN X:");
-m.printX();
-console.log("CABECERAS EN Y:");
-m.printY();
-console.log("GRAPHVIZ");
-m.graph()
 
-// console.log( Math.floor(Math.random()*(10 - 1)+1))
+function handleSubmit(e){
+
+    
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const form = Object.fromEntries(formData);
+    
+    if(localStorage.getItem("matriz") !== null){
+        let temp = JSON.retrocycle(JSON.parse(localStorage.getItem("matriz")));
+        matrix.head = temp.head;    
+    }
+
+    try{
+        matrix.insert(Number(form.xpos), Number(form.ypos), form.value);
+        alert("Todo bien :)")
+    }catch(error){
+        alert("Error en la conversion")
+        console.log(error);
+    }
+
+    // MANEJAR AUTOREFERENCIA DE LAS ESTRUCTURAS
+    localStorage.setItem("matriz", JSON.stringify(JSON.decycle(matrix)));
+    
+    //localStorage.clear()
+}
+
+function showGraph(){
+    let temp = JSON.retrocycle(JSON.parse(localStorage.getItem("matriz")));
+    matrix.head = temp.head;
+    let url = 'https://quickchart.io/graphviz?graph=';
+    let body = `digraph G { ${matrix.graph()} }`
+    $("#graph").attr("src", url + body);
+}
+
+
+
+
+
 

@@ -1,0 +1,88 @@
+{
+    "alumnos": [
+        {
+          "carnet": 201700918,
+          "nombre": "Cristian Suy",
+          "password": "Cris123",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201780044,
+          "nombre": "Leonardo Martinez",
+          "password": "leo123",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201403877,
+          "nombre": "Ebany Larios",
+          "password": "qwerty12",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 202000277,
+          "nombre": "Diana Berducido",
+          "password": "Diana55",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 202001053,
+          "nombre": "Kevin Hernandez",
+          "password": "Kevin4",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201901801,
+          "nombre": "Kevin Castaneda",
+          "password": "Kevin3",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201503933,
+          "nombre": "Manolo Ramirez",
+          "password": "Manolo93",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 202106484,
+          "nombre": "Wendi Vicente",
+          "password": "Wendi52",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201944994,
+          "nombre": "Robin Buezo",
+          "password": "Robin27",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 202010770,
+          "nombre": "Luis Moreira",
+          "password": "Luis55",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 199919737,
+          "nombre": "Williams Constanza",
+          "password": "Williams6",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201700792,
+          "nombre": "Dennis Escobar",
+          "password": "Dennis28",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 200715321,
+          "nombre": "Jim Melendez",
+          "password": "Jim67",
+          "carpeta_raiz": "/"
+        },
+        {
+          "carnet": 201700907,
+          "nombre": "Alma Manchame",
+          "password": "Alma28",
+          "carpeta_raiz": "/"
+        }
+      ]
+  }
