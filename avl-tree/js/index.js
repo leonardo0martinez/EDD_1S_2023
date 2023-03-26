@@ -31,12 +31,23 @@ function loadStudentsForm(e) {
             for(let i = 0; i < studentsArray.length; i++){
                 avlTree.insert(studentsArray[i]);
             }
+            // GUARDAR EN LOCAL STORAGE
+            localStorage.setItem("avlTree", JSON.stringify(avlTree))
             alert('Alumnos cargados con éxito!')
         }
     }catch(error){
         console.log(error);
         alert("Error en la inserción");
     }
+
+}
+
+function showLocalStudents(){
+    let temp = localStorage.getItem("avlTree")
+    avlTree.root = JSON.parse(temp).root;
+    $('#studentsTable tbody').html(
+        avlTree.inOrder()
+    )
 }
 
 //--------------------------------------------------------------------------
@@ -79,3 +90,7 @@ function showAvlGraph(){
     console.log(body);
     $("#graph").attr("src", url + body);
 }
+
+
+
+$( document ).ready(showLocalStudents);

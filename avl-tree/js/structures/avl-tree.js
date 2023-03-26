@@ -101,7 +101,7 @@ class AvlTree{
         nodes = "";
         connections = "";
         this.#treeGraphRecursive(this.root);
-        console.log(nodes,connections);
+        // console.log(nodes,connections);
         return nodes + connections;
     }
     #treeGraphRecursive(current){
