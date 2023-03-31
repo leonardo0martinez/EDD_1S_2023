@@ -19,7 +19,7 @@
         }
     </style>
     <div class="container text-light py-5">
-        <h1 class="text-center">Árbol N-Ario</h1>
+        <h1 class="text-center">Sistema de Archivos</h1>
         <hr>
         <div class="row">
             <div class="col-4 p-5">
@@ -28,17 +28,29 @@
                 <form class="form" onsubmit="crearCarpeta(event)">
                     <input type="text" id="folderName" name="folderName" class="form-control" placeholder="Nombre de Carpeta">
                     <div class="form-group mt-4">
-                        <button type="submit" class="btn btn-primary w-100">Crear</button>
+                        <button type="submit" class="btn btn-primary w-100">Crear Carpeta</button>
                     </div>
                 </form>
-                <a onclick="showGraph()" class="btn btn-primary w-100 mt-3">Gráfica del Arbol</a>
+                <h5 class="pt-4">Nuevo Archivo</h5>
+                <hr>
+                <form class="form" onsubmit="subirArchivo(event)">
+                    <input type="text" id="fileName" name="fileName" class="form-control mb-4" placeholder="Nombre de Archivos"/>
+                    <input type="file" id="file" name="file" class="form-control" accept="application/pdf, .txt, image/*">
+                    <div class="form-group mt-4">
+                        <button type="submit" class="btn btn-primary w-100">Subir Archivo</button>
+                    </div>
+                </form>
+                <h5 class="pt-4">Reportes</h5>
+                <hr>
+                <a onclick="showTreeGraph()" class="btn btn-primary w-100 mt-3">Gráfica de Árbol</a>
+                <a onclick="showMatrixGraph()" class="btn btn-primary w-100 mt-3">Gráfica de Matriz</a>
             </div>
             <div class="col-8 p-5">
                 <h5 class="text-center">Archivos de Carpeta</h5>
                 <hr>
                 <div class="row">
-                    <div class="col-2">
-                        Ruta Actual
+                    <div class="col-2 pt-2">
+                        <strong>Ruta Actual</strong>
                     </div>
                     <div class="col-6">
                         <input type="text" id="path" name="path"  class="form-control" disabled value="/" />
@@ -47,6 +59,7 @@
                         <button type="button" onclick="retornarInicio()" class="btn btn-primary w-100">Inicio</button>    
                     </div>
                 </div>
+                <img id="imagenSubida"/>
                 <div class="row mt-4" id="carpetas">
                     <!-- MOSTRAR LAS CARPETAS -->
                     <!-- <div class="col-2 folder" onclick="">
@@ -58,12 +71,12 @@
         </div>
 
         <div class="ROW">
-            <h1>Reporte de Árbol N-ario</h1>
+            <h3>Reporte</h3>
             <hr>
             <img id="graph">
         </div>
 
-
+        <a download=""></a>
     </div>
 
     <!-- JQUERY -->
@@ -79,6 +92,7 @@
     crossorigin="anonymous"></script>
 
     <!-- Importar Estructuras -->
+    <script src="./js/structures/sparase-matrix.js"></script>
     <script src="./js/structures/n-ary-tree.js"></script>
     <!-- Importar Archivo Principal -->
     <script src="./js/index.js"></script>

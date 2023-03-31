@@ -1,7 +1,10 @@
+
 // CLASE NODO 
 class Tnode{
+    
     constructor(folderName){
         this.folderName = folderName;
+        this.files = [];
         this.children = []; // TODOS LOS NODOS HIJOS
         this.id = null; // PARA GENERAR LA GRÁFICA
     }
@@ -80,9 +83,46 @@ class Tree{
                         <p class="h6 text-center">${child.folderName}</p>
                     </div>`
         })
+        // console.log(node.files)
+        node.files.map(file => {
+            if(file.type === 'text/plain'){
+                let archivo = new Blob([file.content], file.type);
+                const url = URL.createObjectURL(archivo);
+                code += `
+                        <div class="col-2 folder">
+                        <img src="./imgs/file.png" width="100%"/>
+                        <p class="h6 text-center">
+                            <a href="${url}" download>
+                                ${file.name}
+                            </a>
+                        </p>
+                    </div>
+                `
+            }else{
+                code += ` <div class="col-2 folder">
+                        <img src="./imgs/file.png" width="100%"/>
+                        <p class="h6 text-center">
+                            <a href="${file.content}" download>
+                                ${file.name}
+                            </a>
+                        </p>
+                    </div>`
+            }
+        })
         return code;
     }
 
+
+    // insertFile(path, fileName, content, type){
+    //     let temp = this.getFolder(path);
+    //     temp.matriz.insertHeaderOnly(fileName, content, type);
+    // }    
+
+    // matrixGrpah(path){
+    //     let temp = this.getFolder(path);
+    //     console.log(temp.matriz);
+    //     return temp.matriz.graph();
+    // }
 }
 
 
