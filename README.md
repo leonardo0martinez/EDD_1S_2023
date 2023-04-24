@@ -7,7 +7,7 @@ Leonardo Roney Martínez Maldonado
 - [Manejo de Carpetas](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/n-ary-tree)
 - Edición de Archivos TXT
 - Grafo no dirigido con Carpetas
-- [Chat con BlockChain](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/block-chain) [Video de Explicacion](https://drive.google.com/file/d/1e82mn9Kt9BcHPpWaiI4d9O5lx0NwFNwv/view?usp=sharing)
+- [Chat con BlockChain](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/block-chain) | [Video de Explicacion](https://drive.google.com/file/d/1e82mn9Kt9BcHPpWaiI4d9O5lx0NwFNwv/view?usp=sharing)
 
 ## Estructuras de Datos:
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
