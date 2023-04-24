@@ -3,11 +3,11 @@
 
 Leonardo Roney Martínez Maldonado
 
-## Extras
-- [Generar .png con Graphviz](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/graphviz)
-- [Leer archivo .csv en Go](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/read-csv)
-- [Carga Masiva de JSON](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/avl-tree)
+## Ayudas 3ra Fase
 - [Manejo de Carpetas](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/n-ary-tree)
+- Edición de Archivos TXT
+- Grafo no dirigido con Carpetas
+- [Chat con BlockChain](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/block-chain)
 
 ## Estructuras de Datos:
 - [Lista Enlazada Simple](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/simple-linked-list)
@@ -20,8 +20,9 @@ Leonardo Roney Martínez Maldonado
 - [Árbol Binario](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/binary-search-tree/js)
 - [Árbol AVL](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/avl-tree)
 - [Árbol N-Ario](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/n-ary-tree)
-- Árbol B
-- Tablas Hash
+- [Tablas Hash](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/hash-table)
+- Grafo No Dirigido
+- [Block Chain](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/block-chain)
 
 ## Grabaciones de Clase:
 
@@ -36,10 +37,10 @@ Leonardo Roney Martínez Maldonado
 | 7  | 11-Mar-2023 |[Enlace](https://drive.google.com/file/d/1-53aYhvVVc5GfyeSSiRjc49hNNIedy4E/view?usp=sharing)|
 | 8  | 18-Mar-2023 |[Enlace](https://drive.google.com/file/d/1YerxlFC29SPyzpBz9qqoBKiSbR8AVPnn/view?usp=sharing)|
 | 9  | 25-Mar-2023 |[Enlace](https://drive.google.com/file/d/1Li3VW8NqCdK7XqE_uUkwfmo1BDgdCgHF/view?usp=sharing)|
-| 10 | 01-Abr-2023 |               |
-| 11 | 08-Abr-2023 | Vacaciones :sunglasses:|
-| 12 | 15-Abr-2023 |               |
-| 13 | 22-Abr-2023 |               |
+| 10 | 01-Abr-2023 | Vacaciones :sunglasses: |
+| 11 | 08-Abr-2023 | Vacaciones :sunglasses: |
+| 12 | 15-Abr-2023 | [Conferencia](https://drive.google.com/file/d/1ElM2wGrKoabJ0uJ1pMNlz7Q0If-EIPxm/view?usp=sharing)|
+| 13 | 22-Abr-2023 | [Enlace](https://drive.google.com/file/d/15284LcF2hEprBXjIcCCTNealeI-4n8H5/view?usp=sharing)              |
 | 14 | 29-Abr-2023 |               |
 | 15 | 06-May-2023 | Ya Ganaron :v |
 
