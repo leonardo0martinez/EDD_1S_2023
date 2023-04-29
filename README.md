@@ -6,7 +6,7 @@ Leonardo Roney Martínez Maldonado
 ## Ayudas 3ra Fase
 - [Manejo de Carpetas](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/n-ary-tree)
 - Edición de Archivos TXT
-- Grafo no dirigido con Carpetas
+- [Grafo no dirigido con Carpetas](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/non-directed-graph)
 - [Chat con BlockChain](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/block-chain) | [Video de Explicacion](https://drive.google.com/file/d/1e82mn9Kt9BcHPpWaiI4d9O5lx0NwFNwv/view?usp=sharing)
 
 ## Estructuras de Datos:
@@ -21,7 +21,7 @@ Leonardo Roney Martínez Maldonado
 - [Árbol AVL](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/avl-tree)
 - [Árbol N-Ario](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/n-ary-tree)
 - [Tablas Hash](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/hash-table)
-- Grafo No Dirigido
+- [Grafo No Dirigido](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/non-directed-graph)
 - [Block Chain](https://github.com/leonardo0martinez/EDD_1S_2023/tree/master/block-chain)
 
 ## Grabaciones de Clase:
